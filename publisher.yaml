@@ -20,3 +20,7 @@ agents:
     class: com.almende.salig.Publisher
     extends: template/defaultAgent
     my_uci: mediasense.se
+    mediasense_host: 172.16.0.1
+    mediasense_remoteport: 2000
+    mediasense_localport: 8083
+

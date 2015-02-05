@@ -34,13 +34,19 @@ public class MediaSenseApp implements MediaSenseApplication,
 	 *
 	 * @param uci
 	 *            the uci
+	 * @param host
+	 *            the host
+	 * @param remoteport
+	 *            the remoteport
+	 * @param localport
+	 *            the localport
 	 */
-	public MediaSenseApp(final String uci) {
+	public MediaSenseApp(final String uci, final String host, final int remoteport, final int localport) {
 		MY_UCI = uci;
 
 		// Instantiate platform with the MediaSenseListener
 		mp = new MediaSensePlatform(this);
-		mp.init("172.16.0.1", 2000, 8083);
+		mp.init(host, remoteport, localport);
 
 		p = new PublishSubscribeExtension(this);
 		AddInManager am = new AddInManager(mp);
