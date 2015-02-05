@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 21 (0x15)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=SE, ST=Stockholms L\xC3\xA4n, L=Stockholm, O=Stockholms Universitet, OU=DSV, CN=Mediasense CA/name=Mediasense/emailAddress=root@dsv.su.se
+        Validity
+            Not Before: Jan 27 12:52:51 2015 GMT
+            Not After : Jan 24 12:52:51 2025 GMT
+        Subject: C=SE, ST=Stockholms L\xC3\xA4n, L=Stockholm, O=Stockholms Universitet, OU=DSV, CN=Saligpeer4/name=Mediasense/emailAddress=root@dsv.su.se
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:92:b0:d4:9b:f8:bb:1e:95:8e:d6:9a:f5:f2:14:
+                    c3:98:bb:44:ed:dc:03:ad:84:d4:d5:7b:ac:8d:a0:
+                    1b:ac:d8:7b:3a:90:c7:d4:76:c5:b9:b8:19:6a:8d:
+                    6f:98:da:8c:a4:e4:58:48:9b:39:11:4c:65:9c:be:
+                    7a:e0:f7:d6:d4:2f:e8:54:91:90:05:22:86:75:61:
+                    cf:41:ee:2c:44:39:0c:e0:ca:de:7e:8b:90:d3:9f:
+                    69:5c:f5:a9:4e:e1:8c:97:e7:10:4f:57:44:6f:55:
+                    1e:87:7c:bb:ca:c2:04:75:38:ce:11:8c:34:f4:f7:
+                    e3:33:56:00:32:6c:fc:ef:02:3e:80:6a:62:af:9c:
+                    61:f8:b3:bc:1f:d6:11:0a:3a:05:3b:03:1e:32:a2:
+                    06:76:15:51:41:07:88:f0:59:fd:e4:c3:c4:52:cb:
+                    69:39:54:86:9b:8a:66:9f:53:21:41:23:b6:4e:17:
+                    15:4d:bc:44:44:10:ce:aa:e1:3a:90:90:cb:79:f9:
+                    6b:ad:b1:42:bb:82:d9:92:35:60:a4:d4:13:47:45:
+                    bb:f0:a7:0d:6b:82:d8:19:00:37:0f:df:c8:ad:54:
+                    7f:df:f5:42:ae:96:c7:c0:4c:8a:90:4e:62:7e:68:
+                    ec:a2:18:d7:e0:19:c2:4d:0b:8b:b9:f1:d2:c8:68:
+                    4f:3f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                D8:AD:91:36:CA:38:CD:38:2B:8C:85:F2:69:DC:C4:AB:12:AF:E2:AC
+            X509v3 Authority Key Identifier: 
+                keyid:1A:A6:CF:C9:69:F6:38:F9:34:8C:63:8F:F2:DC:02:EA:1C:79:8C:98
+                DirName:/C=SE/ST=Stockholms L\xC3\xA4n/L=Stockholm/O=Stockholms Universitet/OU=DSV/CN=Mediasense CA/name=Mediasense/emailAddress=root@dsv.su.se
+                serial:E6:A0:9F:9E:23:D0:29:BB
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         4d:7e:cf:05:37:80:28:01:ad:37:5c:a7:8d:6c:c7:e3:5e:75:
+         82:c9:19:bb:6d:2c:b2:50:0c:ce:63:a1:10:d7:05:b3:25:60:
+         43:38:38:66:07:5c:f5:84:59:4d:2b:cb:7a:5b:3b:0d:89:1e:
+         31:44:fb:62:51:5b:3a:e1:1c:a0:40:0f:79:31:98:58:b9:22:
+         7a:c1:26:4c:68:63:71:87:65:33:c6:88:99:b2:ef:d6:08:1d:
+         76:07:27:dc:fa:60:ab:f4:4a:7c:28:cf:1a:c1:6c:6e:38:da:
+         2a:23:65:c8:89:e0:af:80:ce:45:d9:45:8e:0a:db:e6:69:c1:
+         57:71:87:43:63:30:2f:58:e5:c2:2f:ad:62:d6:d9:4f:7e:19:
+         44:c6:c7:49:1d:eb:70:26:a2:ac:a3:b0:4f:98:f4:55:a1:10:
+         8a:77:71:2f:6c:36:db:f6:c0:03:46:44:e1:8a:d2:49:04:10:
+         d6:e9:42:32:4f:7d:11:0a:88:ae:22:f8:53:98:13:82:f4:60:
+         87:7c:5b:7e:a5:da:bf:ca:65:51:8b:66:f2:53:62:ff:bf:67:
+         68:76:08:82:f8:1a:2a:73:6e:a7:ac:7d:0f:8d:f9:e1:68:81:
+         6a:32:bb:fb:c1:1d:25:cc:2d:fb:03:10:68:da:a9:9b:93:9a:
+         15:ca:31:63
+-----BEGIN CERTIFICATE-----
+MIIFVTCCBD2gAwIBAgIBFTANBgkqhkiG9w0BAQsFADCBtjELMAkGA1UEBhMCU0Ux
+GDAWBgNVBAgUD1N0b2NraG9sbXMgTMOkbjESMBAGA1UEBxMJU3RvY2tob2xtMR8w
+HQYDVQQKExZTdG9ja2hvbG1zIFVuaXZlcnNpdGV0MQwwCgYDVQQLEwNEU1YxFjAU
+BgNVBAMTDU1lZGlhc2Vuc2UgQ0ExEzARBgNVBCkTCk1lZGlhc2Vuc2UxHTAbBgkq
+hkiG9w0BCQEWDnJvb3RAZHN2LnN1LnNlMB4XDTE1MDEyNzEyNTI1MVoXDTI1MDEy
+NDEyNTI1MVowgbMxCzAJBgNVBAYTAlNFMRgwFgYDVQQIFA9TdG9ja2hvbG1zIEzD
+pG4xEjAQBgNVBAcTCVN0b2NraG9sbTEfMB0GA1UEChMWU3RvY2tob2xtcyBVbml2
+ZXJzaXRldDEMMAoGA1UECxMDRFNWMRMwEQYDVQQDEwpTYWxpZ3BlZXI0MRMwEQYD
+VQQpEwpNZWRpYXNlbnNlMR0wGwYJKoZIhvcNAQkBFg5yb290QGRzdi5zdS5zZTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJKw1Jv4ux6Vjtaa9fIUw5i7
+RO3cA62E1NV7rI2gG6zYezqQx9R2xbm4GWqNb5jajKTkWEibORFMZZy+euD31tQv
+6FSRkAUihnVhz0HuLEQ5DODK3n6LkNOfaVz1qU7hjJfnEE9XRG9VHod8u8rCBHU4
+zhGMNPT34zNWADJs/O8CPoBqYq+cYfizvB/WEQo6BTsDHjKiBnYVUUEHiPBZ/eTD
+xFLLaTlUhpuKZp9TIUEjtk4XFU28REQQzqrhOpCQy3n5a62xQruC2ZI1YKTUE0dF
+u/CnDWuC2BkANw/fyK1Uf9/1Qq6Wx8BMipBOYn5o7KIY1+AZwk0Li7nx0shoTz8C
+AwEAAaOCAW0wggFpMAkGA1UdEwQCMAAwLQYJYIZIAYb4QgENBCAWHkVhc3ktUlNB
+IEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU2K2RNso4zTgrjIXyadzE
+qxKv4qwwgesGA1UdIwSB4zCB4IAUGqbPyWn2OPk0jGOP8twC6hx5jJihgbykgbkw
+gbYxCzAJBgNVBAYTAlNFMRgwFgYDVQQIFA9TdG9ja2hvbG1zIEzDpG4xEjAQBgNV
+BAcTCVN0b2NraG9sbTEfMB0GA1UEChMWU3RvY2tob2xtcyBVbml2ZXJzaXRldDEM
+MAoGA1UECxMDRFNWMRYwFAYDVQQDEw1NZWRpYXNlbnNlIENBMRMwEQYDVQQpEwpN
+ZWRpYXNlbnNlMR0wGwYJKoZIhvcNAQkBFg5yb290QGRzdi5zdS5zZYIJAOagn54j
+0Cm7MBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0B
+AQsFAAOCAQEATX7PBTeAKAGtN1ynjWzH4151gskZu20sslAMzmOhENcFsyVgQzg4
+Zgdc9YRZTSvLels7DYkeMUT7YlFbOuEcoEAPeTGYWLkiesEmTGhjcYdlM8aImbLv
+1ggddgcn3Ppgq/RKfCjPGsFsbjjaKiNlyIngr4DORdlFjgrb5mnBV3GHQ2MwL1jl
+wi+tYtbZT34ZRMbHSR3rcCairKOwT5j0VaEQindxL2w22/bAA0ZE4YrSSQQQ1ulC
+Mk99EQqIriL4U5gTgvRgh3xbfqXav8plUYtm8lNi/79naHYIgvgaKnNup6x9D435
+4WiBajK7+8EdJcwt+wMQaNqpm5OaFcoxYw==
+-----END CERTIFICATE-----

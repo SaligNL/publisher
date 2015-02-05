@@ -1,0 +1,22 @@
+#Some empty comment
+
+template:
+   defaultAgent:
+        scheduler:
+           class: com.almende.eve.scheduling.SimpleSchedulerBuilder
+        transport:
+        -  class: com.almende.eve.transport.http.HttpTransportBuilder
+           servletUrl: http://127.0.0.1:8082/
+           servletLauncher: JettyLauncher
+           servletClass: com.almende.eve.transport.http.DebugServlet
+           doShortcut: true
+           doAuthentication: false
+           jetty: 
+              port: 8082
+
+
+agents:
+-   id: publisher
+    class: com.almende.salig.Publisher
+    extends: template/defaultAgent
+    my_uci: mediasense.se
