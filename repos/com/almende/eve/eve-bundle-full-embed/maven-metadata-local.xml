@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.almende.eve</groupId>
+  <artifactId>eve-bundle-full-embed</artifactId>
+  <versioning>
+    <versions>
+      <version>3.1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150205140015</lastUpdated>
+  </versioning>
+</metadata>
