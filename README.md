@@ -14,3 +14,9 @@ java -jar publisher-1.0-SNAPSHOT.jar publisher.yaml
 client:
 echo {"type":"falling","value":true} | java -jar publisher-1.0-SNAPSHOT.jar client.yaml
 
+
+# Requirements
+
+JDK or JRE 7
+http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
+
