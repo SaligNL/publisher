@@ -1,6 +1,6 @@
 #Some empty comment
 
-template:
+templates:
    defaultAgent:
         scheduler:
            builder: com.almende.eve.scheduling.SimpleSchedulerBuilder
@@ -18,7 +18,7 @@ template:
 agents:
 -   id: client
     class: com.almende.salig.Client
-    extends: template/defaultAgent
+    extends: templates/defaultAgent
     publisherUrl: http://127.0.0.1:8082/publisher
     licenseUrl: app1@kinect
 

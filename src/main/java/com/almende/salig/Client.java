@@ -24,7 +24,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  */
 public class Client extends Agent {
 
-	protected void onBoot() {
+	protected void onReady() {
 		schedule("start", null, 1000);
 	}
 
@@ -43,7 +43,7 @@ public class Client extends Agent {
 				br.close();
 				
 				Params params = new Params();
-				//app1@kinect/<type>/string
+				//<type>/string
 				String licenseString = getConfig().get("licenseUrl").asText()+"/" + input.get("type").asText()
 						+ "/string";
 				params.add("message", createMessage(input,licenseString));

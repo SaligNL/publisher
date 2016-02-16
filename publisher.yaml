@@ -1,6 +1,6 @@
 #Some empty comment
 
-template:
+templates:
    defaultAgent:
         scheduler:
            builder: com.almende.eve.scheduling.SimpleSchedulerBuilder
@@ -18,7 +18,7 @@ template:
 agents:
 -   id: publisher
     class: com.almende.salig.Publisher
-    extends: template/defaultAgent
+    extends: templates/defaultAgent
     my_uci: almendeSensorUCI
     mediasense_host: 172.16.0.1
     mediasense_remoteport: 2000
