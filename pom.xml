@@ -54,7 +54,7 @@
 		<maven.shade.version>2.3</maven.shade.version>
 		<gpg.version>1.5</gpg.version>
 		<java.version>1.7</java.version>
-		<eve.version>3.1.0-SNAPSHOT</eve.version>
+		<eve.version>3.2.0-SNAPSHOT</eve.version>
 	</properties>
 
 

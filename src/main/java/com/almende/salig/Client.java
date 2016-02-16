@@ -43,7 +43,10 @@ public class Client extends Agent {
 				br.close();
 				
 				Params params = new Params();
-				params.add("message", createMessage(input));
+				//app1@kinect/<type>/string
+				String licenseString = getConfig().get("licenseUrl").asText()+"/" + input.get("type").asText()
+						+ "/string";
+				params.add("message", createMessage(input,licenseString));
 
 				call(URI.create(getConfig().get("publisherUrl").asText()),
 						"sendMessage", params);
@@ -57,12 +60,11 @@ public class Client extends Agent {
 		}
 	}
 
-	private static Message createMessage(ObjectNode input) {
+	private static Message createMessage(ObjectNode input, String licenseString) {
 		final Message message = new Message();
 		message.setDateTime(DateTime.now().getMillis());
 		message.setValue(input.get("value").asBoolean());
-		message.setLicense("app1@kinect/" + input.get("type").asText()
-				+ "/string");
+		message.setLicense(licenseString);
 		message.setSerial(input.get("type").asText() + "Detector");
 		return message;
 	}
@@ -72,7 +74,7 @@ public class Client extends Agent {
 	 */
 	@Access(AccessType.PUBLIC)
 	public void shutdown(){
-		this.destroy();
+		this.destroy(false);
 		System.exit(0);
 	}
 }

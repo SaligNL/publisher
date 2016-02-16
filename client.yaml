@@ -3,9 +3,9 @@
 template:
    defaultAgent:
         scheduler:
-           class: com.almende.eve.scheduling.SimpleSchedulerBuilder
-        transport:
-        -  class: com.almende.eve.transport.http.HttpTransportBuilder
+           builder: com.almende.eve.scheduling.SimpleSchedulerBuilder
+        transports:
+        -  builder: com.almende.eve.transport.http.HttpTransportBuilder
            servletUrl: http://127.0.0.1:8081/
            servletLauncher: JettyLauncher
            servletClass: com.almende.eve.transport.http.DebugServlet
@@ -20,4 +20,5 @@ agents:
     class: com.almende.salig.Client
     extends: template/defaultAgent
     publisherUrl: http://127.0.0.1:8082/publisher
+    licenseUrl: app1@kinect
 

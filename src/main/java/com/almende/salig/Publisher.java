@@ -5,7 +5,6 @@
 package com.almende.salig;
 
 import com.almende.eve.agent.Agent;
-import com.almende.eve.capabilities.Config;
 import com.almende.eve.protocol.jsonrpc.annotation.Access;
 import com.almende.eve.protocol.jsonrpc.annotation.AccessType;
 import com.almende.eve.protocol.jsonrpc.annotation.Name;
@@ -22,11 +21,10 @@ public class Publisher extends Agent {
 	 * (non-Javadoc)
 	 * @see com.almende.eve.agent.Agent#onInit()
 	 */
-	protected void onBoot() {
-		Config config = getConfig();
-		app = new MediaSenseApp(config.get("my_uci").asText(), config.get(
-				"mediasense_host").asText(), config
-				.get("mediasense_remoteport").asInt(), config.get(
+	protected void onReady() {
+		app = new MediaSenseApp(getConfig().get("my_uci").asText(), getConfig().get(
+				"mediasense_host").asText(), getConfig()
+				.get("mediasense_remoteport").asInt(), getConfig().get(
 				"mediasense_localport").asInt());
 		schedule("start", null, 100);
 		schedule("resolve", null, 1100);
