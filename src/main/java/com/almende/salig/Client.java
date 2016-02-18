@@ -63,7 +63,7 @@ public class Client extends Agent {
 	private static Message createMessage(ObjectNode input, String licenseString) {
 		final Message message = new Message();
 		message.setDateTime(DateTime.now().getMillis());
-		message.setValue(input.get("value").asBoolean());
+		message.setValue(input.get("value").asText());
 		message.setLicense(licenseString);
 		message.setSerial(input.get("type").asText() + "Detector");
 		return message;

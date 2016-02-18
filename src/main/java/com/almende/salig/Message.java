@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Message implements Serializable {
 	private static final long	serialVersionUID	= -5731354252574031680L;
 	private Long				dateTime			= null;
-	private Boolean				value				= null;
+	private String				value				= null;
 	private String				license				= null;
 	private String				serial				= null;
 	private String				type				= null;
@@ -43,7 +43,7 @@ public class Message implements Serializable {
 	 *
 	 * @return the value
 	 */
-	public Boolean getValue() {
+	public String getValue() {
 		return value;
 	}
 
@@ -53,7 +53,7 @@ public class Message implements Serializable {
 	 * @param value
 	 *            the new value
 	 */
-	public void setValue(Boolean value) {
+	public void setValue(String value) {
 		this.value = value;
 	}
 
