@@ -21,4 +21,4 @@ Make sure the paths are correct. When using this together with the falling/eatin
 
 JDK or JRE 7
 http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html
-
+###MAKE SURE THE PATH VARIABLE CAN FIND JAVA
